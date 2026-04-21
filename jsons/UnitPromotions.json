@@ -1,1 +1,67 @@
-\\Effects
+[
+    //Unit Debuffs
+        //Your Units
+
+        //Enemy Units
+            //Fairy
+            {
+                "name": "[Fairy] count`Inf, potency`1",
+                "uniques": ["[-1]% Strength",
+                
+                            "[This Unit] takes [1] damage <upon being promoted>",
+                            "[This Unit] takes [1] damage <upon conquering a city>",
+                            "[This Unit] takes [1] damage <upon damaging a [Enemy] unit>",
+                            "[This Unit] takes [1] damage <upon entering combat>",
+                            "[This Unit] takes [1] damage <upon turn end>",
+                            "[This Unit] takes [1] damage <upon turn start>",
+                            ]
+            },
+            {
+                "name": "[Fairy] count`Inf, potency`2",
+                "uniques": ["[-1]% Strength",
+                
+                            "[This Unit] takes [2] damage <upon being promoted>",
+                            "[This Unit] takes [2] damage <upon conquering a city>",
+                            "[This Unit] takes [2] damage <upon damaging a [Enemy] unit>",
+                            "[This Unit] takes [2] damage <upon entering combat>",
+                            "[This Unit] takes [2] damage <upon turn end>",
+                            "[This Unit] takes [2] damage <upon turn start>",
+                            ]
+            },
+            {
+                "name": "[Fairy] count`Inf, potency`3",
+                "uniques": ["[-1]% Strength",
+                
+                            "[This Unit] takes [3] damage <upon being promoted>",
+                            "[This Unit] takes [3] damage <upon conquering a city>",
+                            "[This Unit] takes [3] damage <upon damaging a [Enemy] unit>",
+                            "[This Unit] takes [3] damage <upon entering combat>",
+                            "[This Unit] takes [3] damage <upon turn end>",
+                            "[This Unit] takes [3] damage <upon turn start>",
+                            ]
+            },
+            {
+                "name": "[Fairy] count`Inf, potency`4",
+                "uniques": ["[-1]% Strength",
+                
+                            "[This Unit] takes [4] damage <upon being promoted>",
+                            "[This Unit] takes [4] damage <upon conquering a city>",
+                            "[This Unit] takes [4] damage <upon damaging a [Enemy] unit>",
+                            "[This Unit] takes [4] damage <upon entering combat>",
+                            "[This Unit] takes [4] damage <upon turn end>",
+                            "[This Unit] takes [4] damage <upon turn start>",
+                            ]
+            },
+            {
+                "name": "[Fairy] count`Inf, potency`5",
+                "uniques": ["[-1]% Strength",
+                
+                            "[This Unit] takes [5] damage <upon being promoted>",
+                            "[This Unit] takes [5] damage <upon conquering a city>",
+                            "[This Unit] takes [5] damage <upon damaging a [Enemy] unit>",
+                            "[This Unit] takes [5] damage <upon entering combat>",
+                            "[This Unit] takes [5] damage <upon turn end>",
+                            "[This Unit] takes [5] damage <upon turn start>",
+                            ]
+            },
+]
