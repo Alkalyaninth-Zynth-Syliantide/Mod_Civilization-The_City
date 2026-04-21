@@ -1,17 +1,24 @@
 [
 	{
-		"name": "Phasers",
+		"name": "Arbiter",
 		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
+		"uniqueTo": "The City",
+		"replaces": "Giant Death Robot",
+		"cost": 1500,
+		
+		"movement": 1,
+		"strength": 1,
+		"rangedStrength": 1,
 		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
+		
+		"uniques": ["Limited to [1] per Civilization",
+
+					"[+8900]% Strength",
+					"[+200]% Strength <with [48]% chance>",
+					"[+200]% Strength <with [49]% chance>",
+					"[+200]% Strength <with [50]% chance>",
+					"[+200]% Strength <with [51]% chance>",
+					"[+200]% Strength <with [52]% chance>",
+					]
 	}
 ]
