@@ -23,11 +23,11 @@
 
 					"[This Unit] gains the [Shockwave] status for [1] turn(s) <every [5] turns>",
 
-					"[Target Unit] gains the [[Fairy] count`Inf, potency`1] promotion",
-					"[Target Unit] gains the [[Fairy] count`Inf, potency`2] promotion <for units with [[Fairy] count`Inf, potency`1]>",
-					"[Target Unit] gains the [[Fairy] count`Inf, potency`3] promotion <for units with [[Fairy] count`Inf, potency`2]>",
-					"[Target Unit] gains the [[Fairy] count`Inf, potency`4] promotion <for units with [[Fairy] count`Inf, potency`3]>",
-					"[Target Unit] gains the [[Fairy] count`Inf, potency`5] promotion <for units with [[Fairy] count`Inf, potency`4]>",
+					"[Target Unit] gains the [[Fairy] count`Inf, potency`1] promotion <vs [Enemy] units>",
+					"[Target Unit] gains the [[Fairy] count`Inf, potency`2] promotion <vs [Enemy] units> <for units with [[Fairy] count`Inf, potency`1]>",
+					"[Target Unit] gains the [[Fairy] count`Inf, potency`3] promotion <vs [Enemy] units> <for units with [[Fairy] count`Inf, potency`2]>",
+					"[Target Unit] gains the [[Fairy] count`Inf, potency`4] promotion <vs [Enemy] units> <for units with [[Fairy] count`Inf, potency`3]>",
+					"[Target Unit] gains the [[Fairy] count`Inf, potency`5] promotion <vs [Enemy] units> <for units with [[Fairy] count`Inf, potency`4]>",
 					]
 	}
 ]
