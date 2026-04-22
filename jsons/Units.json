@@ -12,6 +12,8 @@
 		"range": 2,
 		
 		"uniques": ["Limited to [1] per Civilization",
+					"Uncapturable",
+					"No damage penalty for wounded units",
 
 					"[+3900]% Strength",
 					"[+200]% Strength <with [48]% chance>",
