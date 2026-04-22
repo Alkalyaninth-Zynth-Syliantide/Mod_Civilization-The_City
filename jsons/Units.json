@@ -4,9 +4,9 @@
 		"unitType": "Ranged",
 		"uniqueTo": "The City",
 		"replaces": "Giant Death Robot",
-		"cost": 1000,
+		"cost": 100,
 		
-		"movement": 1,
+		"movement": 3,
 		"strength": 40,
 		"rangedStrength": 1,
 		"range": 2,
