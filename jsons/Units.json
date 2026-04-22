@@ -9,7 +9,7 @@
 		"movement": 3,
 		"strength": 40,
 		"rangedStrength": 1,
-		"range": 2,
+		"range": 3,
 		
 		"uniques": ["Limited to [1] per Civilization",
 					"Uncapturable",
