@@ -7,7 +7,7 @@
 		"cost": 1500,
 		
 		"movement": 1,
-		"strength": 1,
+		"strength": 40,
 		"rangedStrength": 1,
 		"range": 2,
 		
@@ -15,12 +15,11 @@
 					"Uncapturable",
 					"No damage penalty for wounded units",
 
-					"[+3900]% Strength",
-					"[+200]% Strength <with [48]% chance>",
-					"[+200]% Strength <with [49]% chance>",
-					"[+200]% Strength <with [50]% chance>",
-					"[+200]% Strength <with [51]% chance>",
-					"[+200]% Strength <with [52]% chance>",
+					"[+2] Strength <with [48]% chance>",
+					"[+2] Strength <with [49]% chance>",
+					"[+2] Strength <with [50]% chance>",
+					"[+2] Strength <with [51]% chance>",
+					"[+2] Strength <with [52]% chance>",
 
 					"[Target Unit] gains the [[Fairy] count`Inf, potency`1] promotion",
 					"[Target Unit] gains the [[Fairy] count`Inf, potency`2] promotion <for units with [[Fairy] count`Inf, potency`1]>",
