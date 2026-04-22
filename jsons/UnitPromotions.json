@@ -1,4 +1,19 @@
 [
+    //Unit Move Set
+        //Arbiter
+         {
+            "name": "Shockwave",
+            "uniques": ["Ignores terrain cost",
+                        "[+5] Movement",
+                        "[1] Range",
+                
+                        "Nuclear weapon of Strength [1]",
+					    "Blast radius [0]",
+
+                        "Heals [5] damage if it kills a unit"
+                        ]
+         }
+    //Unit Buffs
     //Unit Debuffs
         //Your Units
 
