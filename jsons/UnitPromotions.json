@@ -5,12 +5,13 @@
             "name": "Shockwave",
             "uniques": ["Ignores terrain cost",
                         "[+5] Movement",
-                        "[1] Range",
+                        "[2] Range",
                 
-                        "Nuclear weapon of Strength [1]",
-					    "Blast radius [0]",
+                        "Nuclear weapon of Strength [5]",
+					    "Blast radius [1]",
 
-                        "Heals [5] damage if it kills a unit"
+                        "Heals [5] damage if it kills a unit",
+						"[This Unit] loses the [Shockwave] promotion <upon turn end>"
                         ]
          }
     //Unit Buffs
