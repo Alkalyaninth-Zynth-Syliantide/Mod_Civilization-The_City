@@ -8,14 +8,14 @@
 		
 		"movement": 3,
 		"strength": 90,
-		"rangedStrength": 1,
+		"rangedStrength": 40,
 		"range": 3,
 		
 		"uniques": ["Limited to [1] per Civilization",
 					"Uncapturable",
 					"No damage penalty for wounded units",
 
-					"[5] Sight",
+					"[10] Sight",
 
 					"[+2] Strength <with [48]% chance>",
 					"[+2] Strength <with [49]% chance>",
@@ -23,8 +23,7 @@
 					"[+2] Strength <with [51]% chance>",
 					"[+2] Strength <with [52]% chance>",
 
-                    "Nuclear weapon of Strength [1] <vs [City]>",
-					"Blast radius [0] <vs [City]>",
+					"[This Unit] gains the [Shockwave] promotion <upon damaging a [All] unit> <with [33]% chance>",
 
 					"[Target Unit] gains the [[Fairy] count`Inf, potency`1] promotion <upon damaging a [All] unit>",
 					"[Target Unit] gains the [[Fairy] count`Inf, potency`2] promotion <upon damaging a [All] unit> <for units with [[Fairy] count`Inf, potency`1]>",
