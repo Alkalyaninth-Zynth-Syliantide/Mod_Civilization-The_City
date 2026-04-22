@@ -19,6 +19,12 @@
 					"[+200]% Strength <with [50]% chance>",
 					"[+200]% Strength <with [51]% chance>",
 					"[+200]% Strength <with [52]% chance>",
+
+					"[Target Unit] gains the [[Fairy] count`Inf, potency`1] promotion",
+					"[Target Unit] gains the [[Fairy] count`Inf, potency`2] promotion <for units with [[Fairy] count`Inf, potency`1]>",
+					"[Target Unit] gains the [[Fairy] count`Inf, potency`3] promotion <for units with [[Fairy] count`Inf, potency`2]>",
+					"[Target Unit] gains the [[Fairy] count`Inf, potency`4] promotion <for units with [[Fairy] count`Inf, potency`3]>",
+					"[Target Unit] gains the [[Fairy] count`Inf, potency`5] promotion <for units with [[Fairy] count`Inf, potency`4]>",
 					]
 	}
 ]
