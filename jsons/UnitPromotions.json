@@ -11,7 +11,7 @@
 					    "Blast radius [1]",
 
                         "Heals [5] damage if it kills a unit",
-						"[This Unit] loses the [Shockwave] promotion <upon turn end>"
+						"[This Unit] loses the [Shockwave] promotion <upon damaging a [All] unit>"
                         ]
          }
     //Unit Buffs
