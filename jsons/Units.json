@@ -26,7 +26,7 @@
 			
 					"[+20] Strength <vs cities> <when defending>",
 
-					"[This Unit] gains the [Shockwave] promotion <upon damaging a [All] unit> <with [33]% chance>",
+					"[This Unit] gains the [Shockwave] promotion <every [5] turns>",
 
 					"[Target Unit] gains the [[Fairy] count`Inf, potency`1] promotion <upon damaging a [All] unit>",
 					"[Target Unit] gains the [[Fairy] count`Inf, potency`2] promotion <upon damaging a [All] unit> <for units with [[Fairy] count`Inf, potency`1]>",
