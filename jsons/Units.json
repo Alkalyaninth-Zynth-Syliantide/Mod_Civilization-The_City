@@ -6,12 +6,13 @@
 		"replaces": "Giant Death Robot",
 		"cost": 10,
 		
-		"movement": 3,
+		"movement": 5,
 		"strength": 90,
 		"rangedStrength": 40,
 		"range": 3,
 		
 		"uniques": ["Limited to [1] per Civilization",
+					"Ignores terrain cost",
 					"Uncapturable",
 					"No damage penalty for wounded units",
 					"Ignores Zone of Control",
