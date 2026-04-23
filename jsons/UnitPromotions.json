@@ -8,10 +8,10 @@
  	           		"uniques": ["[10] Sight",
 						
 								"[This Unit] gains the [[Attack] Thin Line] promotion <requires [2] movement>",
-								"[This Unit] gains the [[Attack] Line] promotion <requires [2] movement>",
-								"[This Unit] gains the [[Attack] Thick Line] promotion <requires [3] movement>",
-								"[This Unit] gains the [[Attack] Birdcage] promotion <requires [4] movement>",
-								"[This Unit] gains the [[Attack] Shockwave] promotion <requires [5] movement>"]
+								"[This Unit] gains the [[Attack] Line] promotion <requires [3] movement>",
+								"[This Unit] gains the [[Attack] Thick Line] promotion <requires [4] movement>",
+								"[This Unit] gains the [[Attack] Birdcage] promotion <requires [5] movement>",
+								"[This Unit] gains the [[Attack] Shockwave] promotion <requires [6] movement>"]
    	      		},
 				//Attack
   	       		{
