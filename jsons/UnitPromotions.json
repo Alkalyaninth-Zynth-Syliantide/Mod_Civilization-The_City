@@ -11,7 +11,7 @@
 								"[This Unit] gains the [[Attack] Line] promotion <upon losing the [[Cooldown] Line] status> <for [2] movement> <requires [2] movement>",
 								"[This Unit] gains the [[Attack] Thick Line] promotion <upon losing the [[Cooldown] Thick Line] status> <for [3] movement> <requires [3] movement>",
 								"[This Unit] gains the [[Attack] Birdcage] promotion <upon losing the [[Cooldown] Birdcage] status> <for [4] movement> <requires [4] movement>",
-								"[This Unit] gains the [[Attack] Shockwave] promotion <upon losing the [[Cooldown] Shockwave] status> <for [5] movement> <requires [5] movement>"]
+								"[This Unit] gains the [[Attack] Shockwave] promotion <upon losing the [[Cooldown] Shockwave] status> <for [5] movement> <requires [5] movement> <upon turn end>"]
    	      		},
 				//Attack
   	       		{
@@ -76,7 +76,15 @@
    	      		},
   	       		{
  	           		"name": "[Attack] Shockwave",
- 	           		"uniques": ["[This Unit] gains the [[Cooldown] Shockwave] status for [5] turn(s)",
+ 	           		"uniques": ["[+1] Range",
+                
+	                        	"Nuclear weapon of Strength [1]",
+						    	"Blast radius [1]",
+
+ 	                       		"Heals [5] damage if it kills a unit",
+						
+								"[+3] Movement",
+								"[This Unit] gains the [[Cooldown] Shockwave] status for [5] turn(s)",
 				   				"[This Unit] loses the [[Attack] Shockwave] promotion <upon damaging a [All] unit>"]
    	      		},
 				//Attack Cooldowns
@@ -98,15 +106,7 @@
    	      		},
   	       		{
  	           		"name": "[Cooldown] Shockwave",
- 	           		"uniques": ["[-1] Strength", "[This Unit] loses the [[Attack] Shockwave] promotion <upon turn end>",
-								"[+1] Range",
-                
-	                        	"Nuclear weapon of Strength [1]",
-						    	"Blast radius [1]",
-
- 	                       		"Heals [5] damage if it kills a unit",
-						
-								"[+3] Movement"]
+ 	           		"uniques": ["[-1] Strength", "[This Unit] loses the [[Attack] Shockwave] promotion <upon turn end>"]
    	      		},
     //Unit Buffs
 		//Your Unitts
