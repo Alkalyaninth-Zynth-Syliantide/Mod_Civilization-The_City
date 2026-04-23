@@ -11,23 +11,13 @@
 		"rangedStrength": 40,
 		"range": 3,
 		
-		"uniques": ["Limited to [1] per Civilization",
+		"uniques": ["[This Unit] gains the [[Action Set] Arbiter] promotion",
+			
+					"Limited to [1] per Civilization",
 					"Ignores terrain cost",
 					"Uncapturable",
 					"No damage penalty for wounded units",
-					"Ignores Zone of Control",
-
-					"[10] Sight",
-
-					"[+2] Strength <with [48]% chance>",
-					"[+2] Strength <with [49]% chance>",
-					"[+2] Strength <with [50]% chance>",
-					"[+2] Strength <with [51]% chance>",
-					"[+2] Strength <with [52]% chance>",
-			
-					"[+20] Strength <vs cities> <when defending>",
-
-					"[This Unit] gains the [Shockwave] promotion <every [9] turns>"
+					"Ignores Zone of Control"
 					]
 	}
 ]
