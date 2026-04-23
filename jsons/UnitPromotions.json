@@ -15,7 +15,17 @@
    	      },
     //Unit Buffs
 		//Your Unitts
-			//Singularity Effect
+			//Singularity Effects
+			//Singularity Infusions
+			{
+				"name": "[Infusion] Fairy",
+				"uniques": ["[Target Unit] gains the [[Fairy] count`Inf, potency`1] promotion <upon damaging a [All] unit>",
+							"[Target Unit] gains the [[Fairy] count`Inf, potency`2] promotion <upon damaging a [All] unit> <for units with [[Fairy] count`Inf, potency`1]>",
+							"[Target Unit] gains the [[Fairy] count`Inf, potency`3] promotion <upon damaging a [All] unit> <for units with [[Fairy] count`Inf, potency`2]>",
+							"[Target Unit] gains the [[Fairy] count`Inf, potency`4] promotion <upon damaging a [All] unit> <for units with [[Fairy] count`Inf, potency`3]>",
+							"[Target Unit] gains the [[Fairy] count`Inf, potency`5] promotion <upon damaging a [All] unit> <for units with [[Fairy] count`Inf, potency`4]>"
+							]
+			},
     //Unit Debuffs
         //Your Units
 
