@@ -22,7 +22,6 @@
 					
 								"[1] additional attacks per turn",
 
-								"[+5] Movement",
 								"[This Unit] gains the [[Cooldown] Thin Line] status for [1] turn(s)",
 				   				"[This Unit] loses the [[Attack] Thin Line] promotion <upon damaging a [All] unit>"]
    	      		},
@@ -41,8 +40,9 @@
 								"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack>",
 								"[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack>",
 								"[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack> <with [50]% chance>",
+
+								"[+1] Range",
 						
-								"[+4] Movement",
 								"[This Unit] gains the [[Cooldown] Line] status for [1] turn(s)",
 				   				"[This Unit] loses the [[Attack] Line] promotion <upon damaging a [All] unit>"]
    	      		},
@@ -55,7 +55,8 @@
 								"[+1] Strength <with [51]% chance>",
 								"[+1] Strength <with [52]% chance>",
 						
-								"[+3] Movement",
+								"[+2] Range",
+						
 								"[This Unit] gains the [[Cooldown] Thick Line] status for [2] turn(s)",
 				   				"[This Unit] loses the [[Attack] Thick Line] promotion <upon damaging a [All] unit>"]
    	      		},
@@ -70,7 +71,6 @@
 					
 								"[1] additional attacks per turn",
 						
-								"[+3] Movement",
 								"[This Unit] gains the [[Cooldown] Birdcage] status for [3] turn(s)",
 				   				"[This Unit] loses the [[Attack] Thin Line] promotion <upon damaging a [All] unit>"]
    	      		},
@@ -81,30 +81,29 @@
 	                        	"Nuclear weapon of Strength [1]",
 						    	"Blast radius [1]",
 
-								"[+3] Movement",
 								"[This Unit] gains the [[Cooldown] Shockwave] status for [5] turn(s)",
 				   				"[This Unit] loses the [[Attack] Shockwave] promotion <upon damaging a [All] unit>"]
    	      		},
 				//Attack Cooldowns
   	       		{
  	           		"name": "[Cooldown] Thin Line",
- 	           		"uniques": ["[-1] Strength", "[This Unit] loses the [[Attack] Thin Line] promotion <upon turn end>"]
+ 	           		"uniques": ["[-1] Strength", "[-1] Movement", "[This Unit] loses the [[Attack] Thin Line] promotion <upon turn end>"]
    	      		},
   	       		{
  	           		"name": "[Cooldown] Line",
- 	           		"uniques": ["[-1] Strength", "[This Unit] loses the [[Attack] Line] promotion <upon turn end>"]
+ 	           		"uniques": ["[-1] Strength", "[-1] Movement", "[This Unit] loses the [[Attack] Line] promotion <upon turn end>"]
    	      		},
   	       		{
  	           		"name": "[Cooldown] Thick Line",
- 	           		"uniques": ["[-1] Strength", "[This Unit] loses the [[Attack] Thick Line] promotion <upon turn end>"]
+ 	           		"uniques": ["[-1] Strength", "[-1] Movement", "[This Unit] loses the [[Attack] Thick Line] promotion <upon turn end>"]
    	      		},
   	       		{
  	           		"name": "[Cooldown] Birdcage",
- 	           		"uniques": ["[-1] Strength", "[This Unit] loses the [[Attack] Birdcage] promotion <upon turn end>"]
+ 	           		"uniques": ["[-1] Strength", "[-1] Movement", "[This Unit] loses the [[Attack] Birdcage] promotion <upon turn end>"]
    	      		},
   	       		{
  	           		"name": "[Cooldown] Shockwave",
- 	           		"uniques": ["[-1] Strength", "[This Unit] loses the [[Attack] Shockwave] promotion <upon turn end>"]
+ 	           		"uniques": ["[-1] Strength", "[-1] Movement", "[This Unit] loses the [[Attack] Shockwave] promotion <upon turn end>"]
    	      		},
     //Unit Buffs
 		//Your Unitts
