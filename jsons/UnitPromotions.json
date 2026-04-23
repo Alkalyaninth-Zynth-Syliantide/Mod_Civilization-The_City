@@ -81,7 +81,7 @@
 	                        	"Nuclear weapon of Strength [1]",
 						    	"Blast radius [1]",
 
- 	                       		"Heals [5] damage if it kills a unit",
+								"[1] additional attacks per turn",
 						
 								"[+3] Movement",
 								"[This Unit] gains the [[Cooldown] Shockwave] status for [5] turn(s)",
