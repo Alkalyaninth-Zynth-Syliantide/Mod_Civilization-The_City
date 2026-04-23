@@ -7,11 +7,11 @@
  	           		"name": "[Action Set] Arbiter",
  	           		"uniques": ["[10] Sight",
 						
-								"[This Unit] gains the [[Attack] Thin Line] promotion <upon losing the [[Cooldown] Thin Line] status> <for [2] movement> <requires [2] movement>",
-								"[This Unit] gains the [[Attack] Line] promotion <upon losing the [[Cooldown] Line] status> <for [2] movement> <requires [2] movement>",
-								"[This Unit] gains the [[Attack] Thick Line] promotion <upon losing the [[Cooldown] Thick Line] status> <for [3] movement> <requires [3] movement>",
-								"[This Unit] gains the [[Attack] Birdcage] promotion <upon losing the [[Cooldown] Birdcage] status> <for [4] movement> <requires [4] movement>",
-								"[This Unit] gains the [[Attack] Shockwave] promotion <upon losing the [[Cooldown] Shockwave] status> <for [4] movement> <requires [5] movement> <upon turn end>"]
+								"[This Unit] gains the [[Attack] Thin Line] promotion <upon losing the [[Cooldown] Thin Line] status> <requires [2] movement>",
+								"[This Unit] gains the [[Attack] Line] promotion <upon losing the [[Cooldown] Line] status> <requires [2] movement>",
+								"[This Unit] gains the [[Attack] Thick Line] promotion <upon losing the [[Cooldown] Thick Line] status> <requires [3] movement>",
+								"[This Unit] gains the [[Attack] Birdcage] promotion <upon losing the [[Cooldown] Birdcage] status> <requires [4] movement>",
+								"[This Unit] gains the [[Attack] Shockwave] promotion <upon losing the [[Cooldown] Shockwave] status> <requires [4] movement>"]
    	      		},
 				//Attack
   	       		{
