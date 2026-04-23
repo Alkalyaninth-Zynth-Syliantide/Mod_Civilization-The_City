@@ -1,20 +1,34 @@
 [
     //Unit Move Set
-        //Arbiter
-         {
-            "name": "Shockwave",
-            "uniques": ["Ignores terrain cost",
-                        "[+5] Movement",
-                        "[2] Range",
+		//Agents of The Head
+ 	       //Arbiter
+  	       {
+ 	           "name": "[Move Set] Shockwave",
+ 	           "uniques": ["Ignores terrain cost",
+ 	                       "[+5] Movement",
+	                        "[2] Range",
                 
-                        "Nuclear weapon of Strength [5]",
-					    "Blast radius [1]",
+	                        "Nuclear weapon of Strength [5]",
+						    "Blast radius [1]",
 
-                        "Heals [5] damage if it kills a unit",
-						"[This Unit] loses the [Shockwave] promotion <upon damaging a [All] unit>"
-                        ]
-         }
+ 	                       "Heals [5] damage if it kills a unit",
+							"[This Unit] loses the [Shockwave] promotion <upon damaging a [All] unit>"
+ 	                       ]
+   	      },
     //Unit Buffs
+		//Your Unitts
+			//Singularity Effect
+			{
+				"name": "[Effect] K Corp. Ampule",
+				"uniques": ["[+1] Strength",
+
+							"[This Unit] heals [10] HP <upon losing at least [20] HP in a single attack>",
+							"[This Unit] heals [10] HP <upon losing at least [40] HP in a single attack>",
+							"[This Unit] heals [10] HP <upon losing at least [60] HP in a single attack>",
+							"[This Unit] heals [10] HP <upon losing at least [80] HP in a single attack>",
+							"[This Unit] heals [10] HP <upon losing at least [100] HP in a single attack>"
+							]
+			},
     //Unit Debuffs
         //Your Units
 
