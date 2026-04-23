@@ -6,7 +6,7 @@
 		"replaces": "Giant Death Robot",
 		"cost": 10,
 		
-		"movement": 7,
+		"movement": 3,
 		"strength": 90,
 		"rangedStrength": 40,
 		"range": 3,
@@ -17,6 +17,12 @@
 					"Ignores terrain cost",
 					"Uncapturable",
 					"No damage penalty for wounded units",
-					"Ignores Zone of Control"]
+					"Ignores Zone of Control",
+		
+					"[+1] Movement <with [50]% chance>",
+					"[+1] Movement <with [40]% chance>",
+					"[+1] Movement <with [25]% chance>",
+					"[+1] Movement <with [15]% chance>",,
+					"[+1] Movement <with [10]% chance>"]
 	}
 ]
