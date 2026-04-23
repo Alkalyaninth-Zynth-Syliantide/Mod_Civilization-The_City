@@ -90,23 +90,23 @@
 				//Attack Cooldowns
   	       		{
  	           		"name": "[Cooldown] Thin Line",
- 	           		"uniques": ["[-1] Strength"]
+ 	           		"uniques": ["[-1] Strength", "[This Unit] loses the [[Attack] Thin Line] promotion"]
    	      		},
   	       		{
  	           		"name": "[Cooldown] Line",
- 	           		"uniques": ["[-1] Strength"]
+ 	           		"uniques": ["[-1] Strength", "[This Unit] loses the [[Attack] Line] promotion"]
    	      		},
   	       		{
  	           		"name": "[Cooldown] Thick Line",
- 	           		"uniques": ["[-1] Strength"]
+ 	           		"uniques": ["[-1] Strength", "[This Unit] loses the [[Attack] Thick Line] promotion"]
    	      		},
   	       		{
  	           		"name": "[Cooldown] Birdcage",
- 	           		"uniques": ["[-1] Strength"]
+ 	           		"uniques": ["[-1] Strength", "[This Unit] loses the [[Attack] Birdcage] promotion"]
    	      		},
   	       		{
  	           		"name": "[Cooldown] Shockwave",
- 	           		"uniques": ["[-1] Strength"]
+ 	           		"uniques": ["[-1] Strength", "[This Unit] loses the [[Attack] Shockwave] promotion"]
    	      		},
     //Unit Buffs
 		//Your Unitts
