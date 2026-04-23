@@ -6,6 +6,12 @@
   	       		{
  	           		"name": "[Action Set] Arbiter",
  	           		"uniques": ["[10] Sight",
+		
+								"[+1] Movement <with [40]% chance>",
+								"[+1] Movement <with [35]% chance>",
+								"[+1] Movement <with [30]% chance>",
+								"[+1] Movement <with [25]% chance>",
+								"[+1] Movement <with [20]% chance>",
 						
 								"[This Unit] gains the [[Attack] Thin Line] promotion <requires [2] movement>",
 								"[This Unit] gains the [[Attack] Line] promotion <requires [3] movement>",
@@ -87,23 +93,23 @@
 				//Attack Cooldowns
   	       		{
  	           		"name": "[Cooldown] Thin Line",
- 	           		"uniques": ["[-1] Strength", "[-1] Movement", "[This Unit] loses the [[Attack] Thin Line] promotion <upon turn end>"]
+ 	           		"uniques": ["[-1] Strength", "[-1] Movement", "[This Unit] loses the [[Attack] Thin Line] promotion <upon turn start>"]
    	      		},
   	       		{
  	           		"name": "[Cooldown] Line",
- 	           		"uniques": ["[-1] Strength", "[-1] Movement", "[This Unit] loses the [[Attack] Line] promotion <upon turn end>"]
+ 	           		"uniques": ["[-1] Strength", "[-1] Movement", "[This Unit] loses the [[Attack] Line] promotion <upon turn start>"]
    	      		},
   	       		{
  	           		"name": "[Cooldown] Thick Line",
- 	           		"uniques": ["[-1] Strength", "[-1] Movement", "[This Unit] loses the [[Attack] Thick Line] promotion <upon turn end>"]
+ 	           		"uniques": ["[-1] Strength", "[-1] Movement", "[This Unit] loses the [[Attack] Thick Line] promotion <upon turn start>"]
    	      		},
   	       		{
  	           		"name": "[Cooldown] Birdcage",
- 	           		"uniques": ["[-1] Strength", "[-1] Movement", "[This Unit] loses the [[Attack] Birdcage] promotion <upon turn end>"]
+ 	           		"uniques": ["[-1] Strength", "[-1] Movement", "[This Unit] loses the [[Attack] Birdcage] promotion <upon turn start>"]
    	      		},
   	       		{
  	           		"name": "[Cooldown] Shockwave",
- 	           		"uniques": ["[-1] Strength", "[-1] Movement", "[This Unit] loses the [[Attack] Shockwave] promotion <upon turn end>"]
+ 	           		"uniques": ["[-1] Strength", "[-1] Movement", "[This Unit] loses the [[Attack] Shockwave] promotion <upon turn start>"]
    	      		},
     //Unit Buffs
 		//Your Unitts
