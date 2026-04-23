@@ -5,10 +5,11 @@
 				//Action Sets
   	       		{
  	           		"name": "[Action Set] Arbiter",
- 	           		"uniques": ["[This Unit] gains the [[Attack] Thin Line] promotion <for [2] movement> <requires [2] movement>",
-								"[This Unit] gains the [[Attack] Line] promotion <for [2] movement> <requires [2] movement>",
-								"[This Unit] gains the [[Attack] Thick Line] promotion <for [3] movement> <requires [3] movement>",
-								"[This Unit] gains the [[Attack] Shockwave] promotion <for [5] movement> <requires [5] movement>"]
+ 	           		"uniques": ["[This Unit] gains the [[Attack] Thin Line] promotion <upon losing the [[Cooldown] Thin Line] status> <for [2] movement> <requires [2] movement>",
+								"[This Unit] gains the [[Attack] Line] promotion <upon losing the [[Cooldown] Line] status> <for [2] movement> <requires [2] movement>",
+								"[This Unit] gains the [[Attack] Thick Line] promotion <upon losing the [[Cooldown] Thick Line] status> <for [3] movement> <requires [3] movement>",
+								"[This Unit] gains the [[Attack] Birdcage] promotion <upon losing the [[Cooldown] Birdcage] status> <for [4] movement> <requires [4] movement>",
+								"[This Unit] gains the [[Attack] Shockwave] promotion <upon losing the [[Cooldown] Shockwave] status> <for [5] movement> <requires [5] movement>"]
    	      		},
 				//Attack
   	       		{
@@ -19,6 +20,7 @@
 					
 								"[1] additional attacks per turn",
 						
+								"[This Unit] gains the [[Cooldown] Thin Line] status for [1] turn(s)",
 				   				"[This Unit] loses the [[Attack] Thin Line] promotion <upon damaging a [All] unit>"]
    	      		},
   	       		{
@@ -37,6 +39,7 @@
 								"[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack>",
 								"[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack> <with [50]% chance>",
 						
+								"[This Unit] gains the [[Cooldown] Line] status for [1] turn(s)",
 				   				"[This Unit] loses the [[Attack] Line] promotion <upon damaging a [All] unit>"]
    	      		},
   	       		{
@@ -48,19 +51,56 @@
 								"[+1] Strength <with [51]% chance>",
 								"[+1] Strength <with [52]% chance>",
 						
+								"[This Unit] gains the [[Cooldown] Thick Line] status for [2] turn(s)",
 				   				"[This Unit] loses the [[Attack] Thick Line] promotion <upon damaging a [All] unit>"]
    	      		},
   	       		{
+ 	           		"name": "[Attack] Birdcage",
+ 	           		"uniques": ["[+7] Strength",
+								"[+1] Strength <with [25]% chance>",
+								"[+1] Strength <with [48]% chance>",
+								"[+1] Strength <with [49]% chance>",
+								"[+1] Strength <with [51]% chance>",
+								"[+1] Strength <with [52]% chance>",
+					
+								"[1] additional attacks per turn",
+						
+								"[This Unit] gains the [[Cooldown] Birdcage] status for [3] turn(s)",
+				   				"[This Unit] loses the [[Attack] Thin Line] promotion <upon damaging a [All] unit>"]
+   	      		},
+  	       		{
  	           		"name": "[Attack] Shockwave",
- 	           		"uniques": ["[+2] Range",
+ 	           		"uniques": ["[+1] Range",
                 
 	                        	"Nuclear weapon of Strength [1]",
 						    	"Blast radius [1]",
 
  	                       		"Heals [5] damage if it kills a unit",
+						
+								"[This Unit] gains the [[Cooldown] Shockwave] status for [5] turn(s)",
 				   				"[This Unit] loses the [[Attack] Shockwave] promotion <upon damaging a [All] unit>"]
    	      		},
 				//Attack Cooldowns
+  	       		{
+ 	           		"name": "[Cooldown] Thin Line",
+ 	           		"uniques": ["[-1] Strength"]
+   	      		},
+  	       		{
+ 	           		"name": "[Cooldown] Line",
+ 	           		"uniques": ["[-1] Strength"]
+   	      		},
+  	       		{
+ 	           		"name": "[Cooldown] Thick Line",
+ 	           		"uniques": ["[-1] Strength"]
+   	      		},
+  	       		{
+ 	           		"name": "[Cooldown] Birdcage",
+ 	           		"uniques": ["[-1] Strength"]
+   	      		},
+  	       		{
+ 	           		"name": "[Cooldown] Shockwave",
+ 	           		"uniques": ["[-1] Strength"]
+   	      		},
     //Unit Buffs
 		//Your Unitts
 			//Singularity Effects
