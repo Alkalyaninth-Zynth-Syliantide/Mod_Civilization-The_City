@@ -7,11 +7,11 @@
  	           		"name": "[Action Set] Arbiter",
  	           		"uniques": ["[10] Sight",
 						
-								"[This Unit] gains the [[Attack] Thin Line] promotion <upon losing the [[Cooldown] Thin Line] status> <requires [2] movement>",
-								"[This Unit] gains the [[Attack] Line] promotion <upon losing the [[Cooldown] Line] status> <requires [2] movement>",
-								"[This Unit] gains the [[Attack] Thick Line] promotion <upon losing the [[Cooldown] Thick Line] status> <requires [3] movement>",
-								"[This Unit] gains the [[Attack] Birdcage] promotion <upon losing the [[Cooldown] Birdcage] status> <requires [4] movement>",
-								"[This Unit] gains the [[Attack] Shockwave] promotion <upon losing the [[Cooldown] Shockwave] status> <requires [4] movement>"]
+								"[This Unit] gains the [[Attack] Thin Line] promotion <requires [2] movement>",
+								"[This Unit] gains the [[Attack] Line] promotion <requires [2] movement>",
+								"[This Unit] gains the [[Attack] Thick Line] promotion <requires [3] movement>",
+								"[This Unit] gains the [[Attack] Birdcage] promotion <requires [4] movement>",
+								"[This Unit] gains the [[Attack] Shockwave] promotion <requires [5] movement>"]
    	      		},
 				//Attack
   	       		{
@@ -81,8 +81,6 @@
 	                        	"Nuclear weapon of Strength [1]",
 						    	"Blast radius [1]",
 
-								"[1] additional attacks per turn",
-						
 								"[+3] Movement",
 								"[This Unit] gains the [[Cooldown] Shockwave] status for [5] turn(s)",
 				   				"[This Unit] loses the [[Attack] Shockwave] promotion <upon damaging a [All] unit>"]
