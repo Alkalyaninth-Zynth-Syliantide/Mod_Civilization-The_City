@@ -21,7 +21,8 @@
 								"[+1] Strength <with [51]% chance>",
 					
 								"[1] additional attacks per turn",
-						
+
+								"[This Unit] gains [5] movement",
 								"[This Unit] gains the [[Cooldown] Thin Line] status for [1] turn(s)",
 				   				"[This Unit] loses the [[Attack] Thin Line] promotion <upon damaging a [All] unit>"]
    	      		},
@@ -41,6 +42,7 @@
 								"[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack>",
 								"[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack> <with [50]% chance>",
 						
+								"[This Unit] gains [4] movement",
 								"[This Unit] gains the [[Cooldown] Line] status for [1] turn(s)",
 				   				"[This Unit] loses the [[Attack] Line] promotion <upon damaging a [All] unit>"]
    	      		},
@@ -53,6 +55,7 @@
 								"[+1] Strength <with [51]% chance>",
 								"[+1] Strength <with [52]% chance>",
 						
+								"[This Unit] gains [3] movement",
 								"[This Unit] gains the [[Cooldown] Thick Line] status for [2] turn(s)",
 				   				"[This Unit] loses the [[Attack] Thick Line] promotion <upon damaging a [All] unit>"]
    	      		},
@@ -67,6 +70,7 @@
 					
 								"[1] additional attacks per turn",
 						
+								"[This Unit] gains [3] movement",
 								"[This Unit] gains the [[Cooldown] Birdcage] status for [3] turn(s)",
 				   				"[This Unit] loses the [[Attack] Thin Line] promotion <upon damaging a [All] unit>"]
    	      		},
@@ -79,6 +83,7 @@
 
  	                       		"Heals [5] damage if it kills a unit",
 						
+								"[This Unit] gains [3] movement",
 								"[This Unit] gains the [[Cooldown] Shockwave] status for [5] turn(s)",
 				   				"[This Unit] loses the [[Attack] Shockwave] promotion <upon damaging a [All] unit>"]
    	      		},
