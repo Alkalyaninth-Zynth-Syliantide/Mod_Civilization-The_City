@@ -17,12 +17,6 @@
 					"Ignores terrain cost",
 					"Uncapturable",
 					"No damage penalty for wounded units",
-					"Ignores Zone of Control",
-		
-					"[+1] Movement <with [40]% chance>",
-					"[+1] Movement <with [35]% chance>",
-					"[+1] Movement <with [30]% chance>",
-					"[+1] Movement <with [25]% chance>",
-					"[+1] Movement <with [20]% chance>"]
+					"Ignores Zone of Control"]
 	}
 ]
