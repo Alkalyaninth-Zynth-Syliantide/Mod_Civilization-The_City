@@ -6,7 +6,7 @@
 		"replaces": "Giant Death Robot",
 		"cost": 10,
 		
-		"movement": 5,
+		"movement": 6,
 		"strength": 90,
 		"rangedStrength": 40,
 		"range": 3,
