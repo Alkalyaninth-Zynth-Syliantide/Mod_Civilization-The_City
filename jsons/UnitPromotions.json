@@ -112,8 +112,150 @@
  	           		"uniques": ["[-1] Strength", "[-1] Movement", "[This Unit] loses the [[Attack] Shockwave] promotion <upon turn start>"]
    	      		},
     //Unit Buffs
-		//Your Unitts
-			//Singularity Effects
+		//Your Units
+			//General Effects
+				//Protection
+  	       		{
+ 	           		"name": "[Protection] I",
+ 	           		"uniques": ["[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [7] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [9] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [10] HP in a single attack>"]
+   	      		},
+  	       		{
+ 	           		"name": "[Protection] II",
+ 	           		"uniques": ["[This Unit] heals [1] HP <upon losing at least [11] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [12] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [13] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [14] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [15] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [16] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [17] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [18] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [19] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [20] HP in a single attack>"]
+   	      		},
+  	       		{
+ 	           		"name": "[Protection] III",
+ 	           		"uniques": ["[This Unit] heals [1] HP <upon losing at least [21] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [22] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [23] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [24] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [25] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [26] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [27] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [28] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [29] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [30] HP in a single attack>"]
+   	      		},
+  	       		{
+ 	           		"name": "[Protection] IV",
+ 	           		"uniques": ["[This Unit] heals [1] HP <upon losing at least [31] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [32] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [33] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [34] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [35] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [36] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [37] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [38] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [39] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [40] HP in a single attack>"]
+   	      		},
+  	       		{
+ 	           		"name": "[Protection] V",
+ 	           		"uniques": ["[This Unit] heals [1] HP <upon losing at least [41] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [42] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [43] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [44] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [45] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [46] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [47] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [48] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [49] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [50] HP in a single attack>"]
+   	      		},
+  	       		{
+ 	           		"name": "[Protection] VI",
+ 	           		"uniques": ["[This Unit] heals [1] HP <upon losing at least [51] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [52] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [53] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [54] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [55] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [56] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [57] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [58] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [59] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [60] HP in a single attack>"]
+   	      		},
+  	       		{
+ 	           		"name": "[Protection] VII",
+ 	           		"uniques": ["[This Unit] heals [1] HP <upon losing at least [61] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [62] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [63] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [64] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [65] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [66] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [67] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [68] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [69] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [70] HP in a single attack>"]
+   	      		},
+  	       		{
+ 	           		"name": "[Protection] VIII",
+ 	           		"uniques": ["[This Unit] heals [1] HP <upon losing at least [71] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [72] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [73] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [74] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [75] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [76] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [77] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [78] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [79] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [80] HP in a single attack>"]
+   	      		},
+  	       		{
+ 	           		"name": "[Protection] IX",
+ 	           		"uniques": ["[This Unit] heals [1] HP <upon losing at least [81] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [82] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [83] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [84] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [85] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [86] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [87] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [88] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [89] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [90] HP in a single attack>"]
+   	      		},
+  	       		{
+ 	           		"name": "[Protection] X",
+ 	           		"uniques": ["[This Unit] heals [1] HP <upon losing at least [91] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [92] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [93] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [94] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [95] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [96] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [97] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [98] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [99] HP in a single attack>",
+								"[This Unit] heals [1] HP <upon losing at least [100] HP in a single attack>"]
+   	      		},
+			//Singularity Status
+  	       	{
+ 	           	"name": "[Status] X Corp. Alloy",
+ 	           	"uniques": ["[+1] Strength",
+					
+							"[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack>",
+							"[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack>",
+							"[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack>",
+							"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack>",
+							"[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack>"]
+   	      	},
 			//Singularity Infusions
 			{
 				"name": "[Infusion] Fairy",
