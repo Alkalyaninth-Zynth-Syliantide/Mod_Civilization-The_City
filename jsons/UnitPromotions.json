@@ -114,10 +114,21 @@
     //Unit Buffs
 		//Your Units
 			//General Effects
+				//Fixer Grades Mechanic
+					//Grade Scaler
+  	       			{
+ 	           			"name": "[Gain] Grade Level",
+ 	           			"uniques": ["[This Unit] gains the [[Grade] 9] promotion",]
+   	      			},
+					//Grade Levels
+  	       			{
+ 	           			"name": "[Grade] 9",
+ 	           			"uniques": ["[+1] Movement"]
+   	      			},
 				//Protection Mechanic
 					//Protection Scaler
   	       			{
- 	           			"name": "[Effect] Protection",
+ 	           			"name": "[Gain] Protection",
  	           			"uniques": ["[This Unit] gains the [[Protection] I] promotion",
 									"[This Unit] gains the [[Protection] II] promotion <for units with [[Protection] I]>",
 									"[This Unit] gains the [[Protection] III] promotion <for units with [[Protection] II]>",
