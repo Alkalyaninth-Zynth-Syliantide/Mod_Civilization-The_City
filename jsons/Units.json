@@ -3,7 +3,7 @@
 		"name": "Arbiter",
 		"unitType": "Ranged",
 		"uniqueTo": "The City",
-		"replaces": "Giant Death Robot",
+		"replaces": "Archer",
 		"cost": 10,
 		
 		"movement": 5,
