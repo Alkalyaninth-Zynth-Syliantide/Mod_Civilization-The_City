@@ -1,116 +1,19 @@
 [
-    //Unit Action Sets
-		//Agents of The Head
-			//Arbiter
-				//Action Sets
-  	       		{
- 	           		"name": "[Action Set] Arbiter",
- 	           		"uniques": ["[10] Sight",
-		
-								"[+1] Movement <with [40]% chance>",
-								"[+1] Movement <with [35]% chance>",
-								"[+1] Movement <with [30]% chance>",
-								"[+1] Movement <with [25]% chance>",
-								"[+1] Movement <with [20]% chance>",
-						
-								"[This Unit] gains the [[Attack] Thin Line] promotion <requires [2] movement>",
-								"[This Unit] gains the [[Attack] Line] promotion <requires [3] movement>",
-								"[This Unit] gains the [[Attack] Thick Line] promotion <requires [4] movement>",
-								"[This Unit] gains the [[Attack] Birdcage] promotion <requires [5] movement>",
-								"[This Unit] gains the [[Attack] Shockwave] promotion <requires [6] movement>"]
-   	      		},
-				//Attack
-  	       		{
- 	           		"name": "[Attack] Thin Line",
- 	           		"uniques": ["[+6] Strength",
-								"[+1] Strength <with [49]% chance>",
-								"[+1] Strength <with [51]% chance>",
-					
-								"[1] additional attacks per turn",
-
-								"[This Unit] gains the [[Cooldown] Thin Line] status for [1] turn(s)",
-				   				"[This Unit] loses the [[Attack] Thin Line] promotion <upon damaging a [All] unit>"]
-   	      		},
-  	       		{
- 	           		"name": "[Attack] Line",
- 	           		"uniques": ["[+11] Strength",
-								"[+1] Strength <with [48]% chance>",
-								"[+1] Strength <with [49]% chance>",
-								"[+1] Strength <with [50]% chance>",
-								"[+1] Strength <with [51]% chance>",
-								"[+1] Strength <with [52]% chance>",
-					
-								"[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack>",
-								"[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack>",
-								"[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack>",
-								"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack>",
-								"[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack>",
-								"[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack> <with [50]% chance>",
-
-								"[+1] Range",
-						
-								"[This Unit] gains the [[Cooldown] Line] status for [1] turn(s)",
-				   				"[This Unit] loses the [[Attack] Line] promotion <upon damaging a [All] unit>"]
-   	      		},
-  	       		{
- 	           		"name": "[Attack] Thick Line",
- 	           		"uniques": ["[+15] Strength",
-								"[+1] Strength <with [48]% chance>",
-								"[+1] Strength <with [49]% chance>",
-								"[+1] Strength <with [50]% chance>",
-								"[+1] Strength <with [51]% chance>",
-								"[+1] Strength <with [52]% chance>",
-						
-								"[+2] Range",
-						
-								"[This Unit] gains the [[Cooldown] Thick Line] status for [2] turn(s)",
-				   				"[This Unit] loses the [[Attack] Thick Line] promotion <upon damaging a [All] unit>"]
-   	      		},
-  	       		{
- 	           		"name": "[Attack] Birdcage",
- 	           		"uniques": ["[+7] Strength",
-								"[+1] Strength <with [25]% chance>",
-								"[+1] Strength <with [48]% chance>",
-								"[+1] Strength <with [49]% chance>",
-								"[+1] Strength <with [51]% chance>",
-								"[+1] Strength <with [52]% chance>",
-					
-								"[1] additional attacks per turn",
-						
-								"[This Unit] gains the [[Cooldown] Birdcage] status for [3] turn(s)",
-				   				"[This Unit] loses the [[Attack] Thin Line] promotion <upon damaging a [All] unit>"]
-   	      		},
-  	       		{
- 	           		"name": "[Attack] Shockwave",
- 	           		"uniques": ["[+1] Range",
-                
-	                        	"Nuclear weapon of Strength [1]",
-						    	"Blast radius [1]",
-
-								"[This Unit] gains the [[Cooldown] Shockwave] status for [5] turn(s)",
-				   				"[This Unit] loses the [[Attack] Shockwave] promotion <upon damaging a [All] unit>"]
-   	      		},
-				//Attack Cooldowns
-  	       		{
- 	           		"name": "[Cooldown] Thin Line",
- 	           		"uniques": ["[-1] Strength", "[-1] Movement", "[This Unit] loses the [[Attack] Thin Line] promotion <upon turn start>"]
-   	      		},
-  	       		{
- 	           		"name": "[Cooldown] Line",
- 	           		"uniques": ["[-1] Strength", "[-1] Movement", "[This Unit] loses the [[Attack] Line] promotion <upon turn start>"]
-   	      		},
-  	       		{
- 	           		"name": "[Cooldown] Thick Line",
- 	           		"uniques": ["[-1] Strength", "[-1] Movement", "[This Unit] loses the [[Attack] Thick Line] promotion <upon turn start>"]
-   	      		},
-  	       		{
- 	           		"name": "[Cooldown] Birdcage",
- 	           		"uniques": ["[-1] Strength", "[-1] Movement", "[This Unit] loses the [[Attack] Birdcage] promotion <upon turn start>"]
-   	      		},
-  	       		{
- 	           		"name": "[Cooldown] Shockwave",
- 	           		"uniques": ["[-1] Strength", "[-1] Movement", "[This Unit] loses the [[Attack] Shockwave] promotion <upon turn start>"]
-   	      		},
+    //Unit Stancees
+  	    {
+ 	        "name": "[Stance] Special Attack",
+ 	        "uniques": ["[+100]% Strength <when defending>"]
+   	    },
+  	    {
+ 	        "name": "[Stance] Attack Up",
+ 	        "uniques": ["[+15]% Strength <when attacking>",
+						"[+15]% Strength <when defending>"]
+   	    },
+  	    {
+ 	        "name": "[Stance] Defence Up",
+ 	        "uniques": ["[+20]% Strength <when defending>",
+						"Cannot attack"]
+   	    },
     //Unit Buffs
 		//Your Units
 			//General Effects
