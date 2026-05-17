@@ -1,26 +1,34 @@
 [
-    //Unit Stancees
-  	    {
- 	        "name": "[Stance] Special Attack",
- 	        "uniques": ["[+100]% Strength <when defending>"]
-   	    },
-  	    {
- 	        "name": "[Stance] Attack Up",
- 	        "uniques": ["[+15]% Strength <when attacking>",
-						"[+15]% Strength <when defending>"]
-   	    },
-  	    {
- 	        "name": "[Stance] Defence Up",
- 	        "uniques": ["[+20]% Strength <when defending>",
-						"Cannot attack"]
-   	    },
+    //Unit Skill
+		//Offence
+  	    	{
+ 	        	"name": "[Skill] Attack III",
+ 	        	"uniques": ["[+50]% Strength <when attacking>"]
+   	    	},
+  	    	{
+ 	        	"name": "[Skill] Attack II",
+ 	        	"uniques": ["[+15]% Strength <when attacking>",
+							"[-15]% Strength <when defending>"]
+   	    	},
+		//Defence
+  	    	{
+ 	        	"name": "[Skill] Guard",
+ 	        	"uniques": ["[+20]% Strength <when defending>"]
+   	    	},
+  	    	{
+ 	        	"name": "[Stance] Evade",
+ 	        	"uniques": ["[+20]% Strength <when defending>",
+							"Cannot attack"]
+   	    	},
     //Unit Buffs
 		//Your Units
 			//General Effects
 				//Citizen of The City
 					{
 						"name": "Citizen of The City",
-						"uniques": ["[This Unit] gains the [[Stance] Attack Up] status for [1] turn(s)"
+						"uniques": ["[This Unit] gains the [[Stance] Special Attack] status for [1] turn(s)",
+									"[This Unit] gains the [[Stance] Attack Up] status for [1] turn(s)",
+									"[This Unit] gains the [[Stance] Defence Up] status for [1] turn(s)"
 									]
 					},
 				//Fixer Grades Mechanic
@@ -48,6 +56,19 @@
 									"[This Unit] gains the [[Protection] VIII] promotion <for units with [[Protection] VII]>",
 									"[This Unit] gains the [[Protection] IX] promotion <for units with [[Protection] VIII]>",
 									"[This Unit] gains the [[Protection] X] promotion <for units with [[Protection] IX]>"]
+   	      			},
+  	       			{
+ 	           			"name": "[Gain] Protection",
+ 	           			"uniques": ["[This Unit] loses the [[Protection] I] promotion",
+									"[This Unit] loses the [[Protection] II] promotion <for units with [[Protection] I]>",
+									"[This Unit] loses the [[Protection] III] promotion <for units with [[Protection] II]>",
+									"[This Unit] loses the [[Protection] IV] promotion <for units with [[Protection] III]>",
+									"[This Unit] loses the [[Protection] V] promotion <for units with [[Protection] IV]>",
+									"[This Unit] loses the [[Protection] VI] promotion <for units with [[Protection] V]>",
+									"[This Unit] loses the [[Protection] VII] promotion <for units with [[Protection] VI]>",
+									"[This Unit] loses the [[Protection] VIII] promotion <for units with [[Protection] VII]>",
+									"[This Unit] loses the [[Protection] IX] promotion <for units with [[Protection] VIII]>",
+									"[This Unit] loses the [[Protection] X] promotion <for units with [[Protection] IX]>"]
    	      			},
 					//Protection Count
   	       			{
