@@ -17,6 +17,12 @@
     //Unit Buffs
 		//Your Units
 			//General Effects
+				//Citizen of The City
+					{
+						"name": "Citizen of The City",
+						"uniques": ["[This Unit] gains the [[Stance] Attack Up] status for [1] turn(s)"
+									]
+					},
 				//Fixer Grades Mechanic
 					//Grade Scaler
   	       			{
