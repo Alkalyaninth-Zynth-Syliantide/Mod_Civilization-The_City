@@ -1,9 +1,9 @@
 [
 	{
-		"name": "K Corp. Trainer",
+		"name": "K Corp. Combat Staff Trainer",
 		"color": ,
 
-		"greatPersonPoints": {"K Corp. Staff":25},
+		"greatPersonPoints": {"K Corp. Combat Staff":25},
 		
 		"production": -2,
 		"food": -1,
