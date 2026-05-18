@@ -1,12 +1,24 @@
 [
 	{
+		"name": "N Corp. Inquisitor",
+		"unitType": "Melee",
+		"uniqueTo": "The City",
+		"replaces": "Pikeman",
+		"cost": 10,
+		
+		"movement": 3,
+		"strength": 90,
+		"rangedStrength": 40,
+		"range": 3,
+	},
+	{
 		"name": "Arbiter",
 		"unitType": "Ranged",
 		"uniqueTo": "The City",
 		"replaces": "Archer",
 		"cost": 10,
 		
-		"movement": 5,
+		"movement": 3,
 		"strength": 90,
 		"rangedStrength": 40,
 		"range": 3,
