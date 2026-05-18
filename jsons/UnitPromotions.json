@@ -12,19 +12,21 @@
 		//Defence
   	    	{
  	        	"name": "[Skill] Guard",
- 	        	"uniques": ["[+20]% Strength <when defending>",
-							"[This Unit] loses the [[Skill] Guard] promotion <upon turn start>"]
+ 	        	"uniques": ["[+100]% Strength <when defending>",
+							"[This Unit] loses the [[Skill] Guard] promotion <upon turn start>",
+							"[This Unit] loses the [[Skill] Guard] promotion <upon losing at least [1] HP in a single attack>",
+							"[-99] Range"]
    	    	},
   	    	{
  	        	"name": "[Stance] Evade",
  	        	"uniques": ["[+20]% Strength <when defending>",
 							"[This Unit] loses the [[Skill] Evade] promotion <upon turn start>",
-							"Cannot attack"]
+							"Cannot attack",
+							"[-99] Range"]
    	    	},
   	    	{
  	        	"name": "[Stance] Counter",
- 	        	"uniques": ["[+20]% Strength <when defending>",
-							"[This Unit] loses the [[Skill] Counter] promotion <upon turn start>",
+ 	        	"uniques": ["[This Unit] loses the [[Skill] Counter] promotion <upon turn start>",
 							"[99] Range"]
    	    	},
     //Unit Buffs
