@@ -1,9 +1,33 @@
 [
 	{
-		"name": "N Corp. Inquisitor",
+		"name": "K Corp. Staff",
 		"unitType": "Melee",
 		"uniqueTo": "The City",
-		"replaces": "Pikeman",
+		"replaces": "Infantry",
+		"cost": 10,
+		
+		"movement": 3,
+		"strength": 90,
+		"rangedStrength": 40,
+		"range": 3,
+	},
+	{
+		"name": "Claw",
+		"unitType": "Melee",
+		"uniqueTo": "The City",
+		"replaces": "Paratrooper",
+		"cost": 10,
+		
+		"movement": 3,
+		"strength": 90,
+		"rangedStrength": 40,
+		"range": 3,
+	},
+	{
+		"name": "Beholder",
+		"unitType": "Scout",
+		"uniqueTo": "The City",
+		"replaces": "Scout",
 		"cost": 10,
 		
 		"movement": 3,
@@ -15,7 +39,7 @@
 		"name": "Arbiter",
 		"unitType": "Ranged",
 		"uniqueTo": "The City",
-		"replaces": "Archer",
+		"replaces": "composite Bowman",
 		"cost": 10,
 		
 		"movement": 3,
