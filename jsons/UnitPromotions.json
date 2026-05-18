@@ -3,34 +3,55 @@
 		//Offence
   	    	{
  	        	"name": "[Skill] Attack III",
- 	        	"uniques": ["[+50]% Strength <when attacking>"]
+ 	        	"uniques": ["[+50]% Strength <when attacking>",
+							"[This Unit] loses the [[Skill] Attack III] promotion <upon turn end>"]
    	    	},
   	    	{
  	        	"name": "[Skill] Attack II",
  	        	"uniques": ["[+15]% Strength <when attacking>",
-							"[-15]% Strength <when defending>"]
+							"[-20]% Strength <when defending>",
+							"[This Unit] loses the [[Skill] Attack II] promotion <upon turn end>"]
    	    	},
 		//Defence
   	    	{
  	        	"name": "[Skill] Guard",
- 	        	"uniques": ["[+20]% Strength <when defending>"]
+ 	        	"uniques": ["[+20]% Strength <when defending>",
+							"[This Unit] loses the [[Skill] Guard] promotion <upon turn start>"]
    	    	},
   	    	{
  	        	"name": "[Stance] Evade",
  	        	"uniques": ["[+20]% Strength <when defending>",
+							"[This Unit] loses the [[Skill] Evade] promotion <upon turn start>",
 							"Cannot attack"]
+   	    	},
+  	    	{
+ 	        	"name": "[Stance] Counter",
+ 	        	"uniques": ["[+20]% Strength <when defending>",
+							"[This Unit] loses the [[Skill] Counter] promotion <upon turn start>",
+							"[99] Range"]
    	    	},
     //Unit Buffs
 		//Your Units
 			//General Effects
-				//Citizen of The City
-					{
-						"name": "Citizen of The City",
-						"uniques": ["[This Unit] gains the [[Stance] Special Attack] status for [1] turn(s)",
-									"[This Unit] gains the [[Stance] Attack Up] status for [1] turn(s)",
-									"[This Unit] gains the [[Stance] Defence Up] status for [1] turn(s)"
-									]
-					},
+				//Skill Mechanic
+					//Citizen of The City
+						{
+							"name": "Citizen of The City",
+							"uniques": ["[This Unit] gains the [[RNG] Attack III] status for [1] turn(s) <with [17]% chance>",
+										"[This Unit] gains the [[RNG] Attack II] status for [1] turn(s) <with [33]% chance>"
+										]
+						},
+					//RNG
+						{
+							"name": "[RNG] Attack III",
+							"uniques": ["[This Unit] gains the [[Skill] Attack III] promotion <for [7] movement>"
+										]
+						},
+						{
+							"name": "[RNG] Attack II",
+							"uniques": ["[This Unit] gains the [[Skill] Attack II] promotion <for [5] movement>"
+										]
+						},
 				//Fixer Grades Mechanic
 					//Grade Scaler
   	       			{
