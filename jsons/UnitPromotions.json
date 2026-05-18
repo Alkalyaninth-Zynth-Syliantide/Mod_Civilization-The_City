@@ -3,14 +3,11 @@
 		//Offence
   	    	{
  	        	"name": "[Skill] Attack III",
- 	        	"uniques": ["[+50]% Strength <when attacking>",
-							"[This Unit] loses the [[Skill] Attack III] promotion <upon turn end>"]
+ 	        	"uniques": ["[This Unit] loses the [[Skill] Attack III] promotion <upon turn end>"]
    	    	},
   	    	{
  	        	"name": "[Skill] Attack II",
- 	        	"uniques": ["[+15]% Strength <when attacking>",
-							"[-20]% Strength <when defending>",
-							"[This Unit] loses the [[Skill] Attack II] promotion <upon turn end>"]
+ 	        	"uniques": ["[This Unit] loses the [[Skill] Attack II] promotion <upon turn end>"]
    	    	},
 		//Defence
   	    	{
@@ -37,20 +34,20 @@
 					//Citizen of The City
 						{
 							"name": "Citizen of The City",
-							"uniques": ["[This Unit] gains the [[RNG] Attack III] status for [1] turn(s) <with [17]% chance>",
-										"[This Unit] gains the [[RNG] Attack II] status for [1] turn(s) <with [33]% chance>"
-										]
+							"uniques": ["Uncapturable",
+										"No damage penalty for wounded units",
+								
+										"[This Unit] gains the [[RNG] Attack III] status for [1] turn(s) <with [17]% chance>",
+										"[This Unit] gains the [[RNG] Attack II] status for [1] turn(s) <with [33]% chance>"]
 						},
 					//RNG
 						{
 							"name": "[RNG] Attack III",
-							"uniques": ["[This Unit] gains the [[Skill] Attack III] promotion <for [7] movement>"
-										]
+							"uniques": ["[This Unit] gains the [[Skill] Attack III] promotion <for [7] movement>"]
 						},
 						{
 							"name": "[RNG] Attack II",
-							"uniques": ["[This Unit] gains the [[Skill] Attack II] promotion <for [5] movement>"
-										]
+							"uniques": ["[This Unit] gains the [[Skill] Attack II] promotion <for [5] movement>"]
 						},
 				//Fixer Grades Mechanic
 					//Grade Scaler
