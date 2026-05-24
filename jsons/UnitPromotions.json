@@ -52,15 +52,103 @@
 							"uniques": ["[This Unit] gains the [[Skill] Attack II] promotion <for [5] movement>"]
 						},
 				//Fixer Grades Mechanic
-					//Grade Scaler
-  	       			{
- 	           			"name": "[Gain] Grade Level",
- 	           			"uniques": ["[This Unit] gains the [[Grade] 9] promotion",]
-   	      			},
 					//Grade Levels
   	       			{
  	           			"name": "[Grade] 9",
- 	           			"uniques": ["[+1] Movement"]
+ 	           			"uniques": ["[+1] Movement <with [5]% chance>",
+									"[+1] Movement <with [10]% chance>",
+									"[+1] Movement <with [15]% chance>",
+									"[+1] Movement <with [20]% chance>",
+									"[+1] Movement <with [25]% chance>",
+									"[+1] Movement <with [30]% chance>"]
+   	      			},
+  	       			{
+ 	           			"name": "[Grade] 8",
+ 	           			"uniques": ["[+1] Movement <with [6]% chance>",
+									"[+1] Movement <with [11]% chance>",
+									"[+1] Movement <with [16]% chance>",
+									"[+1] Movement <with [21]% chance>",
+									"[+1] Movement <with [26]% chance>",
+									"[+1] Movement <with [31]% chance>",
+						
+									"[This Unit] loses the [[Grade] 9] promotion <for units with [[Grade] 9]>"]
+   	      			},
+  	       			{
+ 	           			"name": "[Grade] 7",
+ 	           			"uniques": ["[+1] Movement <with [7]% chance>",
+									"[+1] Movement <with [12]% chance>",
+									"[+1] Movement <with [17]% chance>",
+									"[+1] Movement <with [22]% chance>",
+									"[+1] Movement <with [27]% chance>",
+									"[+1] Movement <with [32]% chance>",
+						
+									"[This Unit] loses the [[Grade] 8] promotion <for units with [[Grade] 8]>"]
+   	      			},
+  	       			{
+ 	           			"name": "[Grade] 6",
+ 	           			"uniques": ["[+1] Movement <with [8]% chance>",
+									"[+1] Movement <with [13]% chance>",
+									"[+1] Movement <with [18]% chance>",
+									"[+1] Movement <with [23]% chance>",
+									"[+1] Movement <with [28]% chance>",
+									"[+1] Movement <with [33]% chance>",
+						
+									"[This Unit] loses the [[Grade] 7] promotion <for units with [[Grade] 7]>"]
+   	      			},
+  	       			{
+ 	           			"name": "[Grade] 5",
+ 	           			"uniques": ["[+1] Movement <with [9]% chance>",
+									"[+1] Movement <with [14]% chance>",
+									"[+1] Movement <with [19]% chance>",
+									"[+1] Movement <with [24]% chance>",
+									"[+1] Movement <with [29]% chance>",
+									"[+1] Movement <with [34]% chance>",
+						
+									"[This Unit] loses the [[Grade] 6] promotion <for units with [[Grade] 6]>"]
+   	      			},
+  	       			{
+ 	           			"name": "[Grade] 4",
+ 	           			"uniques": ["[+1] Movement <with [10]% chance>",
+									"[+1] Movement <with [15]% chance>",
+									"[+1] Movement <with [20]% chance>",
+									"[+1] Movement <with [25]% chance>",
+									"[+1] Movement <with [30]% chance>",
+									"[+1] Movement <with [35]% chance>",
+						
+									"[This Unit] loses the [[Grade] 5] promotion <for units with [[Grade] 5]>"]
+   	      			},
+  	       			{
+ 	           			"name": "[Grade] 3",
+ 	           			"uniques": ["[+1] Movement <with [11]% chance>",
+									"[+1] Movement <with [16]% chance>",
+									"[+1] Movement <with [21]% chance>",
+									"[+1] Movement <with [26]% chance>",
+									"[+1] Movement <with [31]% chance>",
+									"[+1] Movement <with [36]% chance>",
+						
+									"[This Unit] loses the [[Grade] 4] promotion <for units with [[Grade] 4]>"]
+   	      			},
+  	       			{
+ 	           			"name": "[Grade] 2",
+ 	           			"uniques": ["[+1] Movement <with [12]% chance>",
+									"[+1] Movement <with [17]% chance>",
+									"[+1] Movement <with [22]% chance>",
+									"[+1] Movement <with [27]% chance>",
+									"[+1] Movement <with [32]% chance>",
+									"[+1] Movement <with [37]% chance>",
+						
+									"[This Unit] loses the [[Grade] 3] promotion <for units with [[Grade] 3]>"]
+   	      			},
+  	       			{
+ 	           			"name": "[Grade] 1",
+ 	           			"uniques": ["[+1] Movement <with [13]% chance>",
+									"[+1] Movement <with [18]% chance>",
+									"[+1] Movement <with [23]% chance>",
+									"[+1] Movement <with [28]% chance>",
+									"[+1] Movement <with [33]% chance>",
+									"[+1] Movement <with [38]% chance>",
+						
+									"[This Unit] loses the [[Grade] 2] promotion <for units with [[Grade] 2]>"]
    	      			},
 				//Protection Mechanic
 					//Protection Scaler
