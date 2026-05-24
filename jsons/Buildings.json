@@ -1,3 +1,53 @@
+//Buildings - Replaced Buildings
+
+//District 1
+//Nest A
+//A Corporation
+
+//District 2
+//Nest B
+//B Corporation
+
+//District 3
+//Nest C
+//C Corporation
+
+//District 4
+//Nest D
+//D Corporation
+
+//District 5
+//Nest E
+//E Corporation
+
+//District 6
+//Nest F
+//F Corporation
+
+//District 7
+//Nest G
+//G Corporation
+
+//District 8
+//Nest H
+//H Corporation
+
+//District 9
+//Nest I
+//I Corporation
+
+//District 10
+//Nest J
+//J Corporation
+
+//District 11 	- Granary
+//Nest K		- 
+//K Corporation	-
+
+//District 12
+//Nest L
+//L Corporation
+
 [
 	{
 	    "name": "The Head's Office",
@@ -24,12 +74,17 @@
 		"happiness": 0,
 		"faith": 0,
 
-		"cost": 1,
+		"cost": 100,
+		"maintenance": 1,
 	},
+
+//District K
 	{
 	    "name": "District 11",
 		"replaces": "Granary",
+		
 		"requiredBuilding": "The Head's Office",
+		"requiredTech": "Pottery",
 		
 		"uniqueTo": "The City",
 		"uniques": ["Never destroyed when the city is captured",
@@ -39,13 +94,55 @@
 					"[+2 Food] from [Wheat] tiles [in this city]"],
 		
 		"production": 0,
-		"food": 1,
+		"food": 2,
 		"gold": 0,
 		"science": 0,
 		"culture": 0,
 		"happiness": 0,
 		"faith": 0,
 
-		"cost": 1,
+		"cost": 125,
+		"maintenance": 2,
+	},
+	{
+	    "name": "Nest K",
+		
+		"requiredBuilding": "District 11",
+		"requiredTech": "Civil Service",
+		
+		"uniqueTo": "The City",
+		"uniques": ["Never destroyed when the city is captured"],
+		
+		"production": 1,
+		"food": 2,
+		"gold": 0,
+		"science": 0,
+		"culture": 0,
+		"happiness": 0,
+		"faith": 0,
+
+		"cost": 175,
+		"maintenance": 3,
+	},
+	{
+	    "name": "K Corporation",
+		"replaces": "Hospital",
+		
+		"requiredBuilding": "Nest K",
+		"requiredTech": "Biology",
+		
+		"uniqueTo": "The City",
+		"uniques": ["Never destroyed when the city is captured"],
+		
+		"production": 0,
+		"food": 5,
+		"gold": 0,
+		"science": 3,
+		"culture": 0,
+		"happiness": 0,
+		"faith": 0,
+
+		"cost": 400,
+		"maintenance": 5,
 	},
 ]
