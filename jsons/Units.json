@@ -1,4 +1,12 @@
 [
+	//Units - Replaced Units
+	
+	//K Corp. Combat Staff - Infantry
+	
+	//Claw - Paratrooper
+	//Beholder - Scout
+	//Arbiter - Composite Bowman
+	
 	{
 		"name": "K Corp. Combat Staff",
 		"unitType": "Melee",
@@ -34,7 +42,7 @@
 		"name": "Arbiter",
 		"unitType": "Ranged",
 		"uniqueTo": "The City",
-		"replaces": "composite Bowman",
+		"replaces": "Composite Bowman",
 		"cost": 475,
 		
 		"movement": 3,
